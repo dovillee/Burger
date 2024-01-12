@@ -10,7 +10,7 @@ Before running the tests, ensure you have the following software installed on yo
 
 ## Setting Up
 
-1. Clone the repository to your local machine:
+1. Clone the repository to your local machine via terminal or cmd:
 ```
 git clone https://github.com/dovillee/Burger
 ```
@@ -20,9 +20,19 @@ git clone https://github.com/dovillee/Burger
 cd cypress/e2e/
 ```
 
-3. Install
+3. Install npm
 ```
 npm install
+```
+
+4. Install cypress
+```
+npm install cypress --save -dev
+```
+
+5. Start cypress
+```
+npx cypress open
 ```
 
 ## Test steps
